@@ -14037,7 +14037,9 @@ button,
 }
 
 .header-mobile-wrapper .app-header__logo .logo-src {
-    background: url('../../assets/images/logo-inverse.png') 50% 50% no-repeat
+    background: url('../../assets/images/logo-nakata.png') 50% 50% no-repeat;
+    width: 60%;
+    height: 50px;
 }
 
 .closed-sidebar-mobile.header-mobile-open .app-sidebar-wrapper {

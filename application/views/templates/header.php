@@ -119,7 +119,8 @@
                 <div class="app-main__inner">
                     <div class="header-mobile-wrapper">
                         <div class="app-header__logo">
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Rumah Nakata Admin"
+                        <img src="../../../assets/images/logo-nakata.png" alt="">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Rumah Nakata Adminnn"
                                 class="logo-src"></a>
                             <button type="button" class="hamburger hamburger--elastic mobile-toggle-sidebar-nav">
                                 <span class="hamburger-box">
