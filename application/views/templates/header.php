@@ -55,7 +55,7 @@
                                         <i class="metismenu-state-icon fa fa-caret-down"></i>
                                     </a>
                                     <ul <?php if($page =='surveiGuru'||$page =='surveiKegiatan'):?>class="mm-show"<?php endif;?>>
-                                        <li><a <?php if($page =='surveiGuru'):?>class="mm-active"<?php endif;?>href="<?= base_url(); ?>admin/surveiGuru">Survei Guru</a></li>
+                                        <!-- <li><a <?php if($page =='surveiGuru'):?>class="mm-active"<?php endif;?>href="<?= base_url(); ?>admin/surveiGuru">Survei Guru</a></li> -->
                                         <li><a <?php if($page =='surveiKegiatan'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/surveiKegiatan">Survei Kegiatan</a></li>
                                     </ul>
                                 </li>
@@ -66,7 +66,7 @@
                                         <i class="metismenu-state-icon fa fa-caret-down"></i>
                                     </a>
                                     <ul <?php if($page =='tbhKuesionerGuru'||$page =='tbhKuesionerKegiatan'||$page =='tbhKuesionerKepuasan'):?>class="mm-show"<?php endif;?>>
-                                        <li><a <?php if($page =='tbhKuesionerGuru'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/KuesionerGuru">Tambah Survei Guru</a></li>
+                                        <!-- <li><a <?php if($page =='tbhKuesionerGuru'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/KuesionerGuru">Tambah Survei Guru</a></li> -->
                                         <li><a <?php if($page =='tbhKuesionerKegiatan'):?>class="mm-active"<?php endif;?>href="<?= base_url(); ?>admin/KuesionerKegiatan">Tambah Survei Kegiatan</a></li>
                                         <!-- <li><a <?php if($page =='tbhKuesionerKepuasan'):?>class="mm-active"<?php endif;?>href="<?= base_url(); ?>admin/KuesionerKepuasan">Tambah Survei Kepuasan</a></li> -->
                                     </ul>
@@ -120,7 +120,7 @@
                     <div class="header-mobile-wrapper">
                         <div class="app-header__logo">
                         <img src="../../../assets/images/logo-nakata.png" alt="">
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Rumah Nakata Adminnn"
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Rumah Nakata Admin"
                                 class="logo-src"></a>
                             <button type="button" class="hamburger hamburger--elastic mobile-toggle-sidebar-nav">
                                 <span class="hamburger-box">

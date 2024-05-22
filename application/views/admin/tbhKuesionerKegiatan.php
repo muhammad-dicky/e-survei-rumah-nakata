@@ -14,7 +14,7 @@
 
 <div class="main-card card">
                 <div class="card-body">
-                    <h5 class="card-title">Mulai Survei Kegiatan</h5>
+                    <h5 class="card-title">Mulai Survei Penunjung</h5>
                     <form id="signupForm" class="col-md-10 mx-auto" method="post" action="<?php echo base_url(). 'admin/tbhKuesioner'; ?>" novalidate="novalidate">
                     
                         <div class="form-group">

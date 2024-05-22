@@ -9,7 +9,7 @@
                         <div class="">
                             <div class="app-footer__inner">
                                 <div class="app-footer-left ml-2">
-                                   Copyright @Makario or contact &nbsp <a href="https://github.com/WindyOktia" target="_blank"> Our Github for support</a>
+                                Rumah Nakata</a>
                                 </div>
                                 <div class="app-footer-right">
                                     

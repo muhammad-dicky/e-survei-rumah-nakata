@@ -25,7 +25,7 @@
             <div class="widget-chart-content text-white">
                 <div class="widget-chart-flex">
                     <div class="widget-title">Responden</div>
-                    <div class="widget-subtitle opacity-7">Siswa</div>
+                    <div class="widget-subtitle opacity-7">Pengunjung</div>
                 </div>
                 <div class="widget-chart-flex">
                     <div class="widget-numbers text-white"><?php echo $jml['responden']; ?></div>
@@ -61,7 +61,7 @@
 <div class="card mb-3">
     <div class="card-header-tab card-header">
         <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
-            <i class="header-icon lnr-laptop-phone mr-3 text-muted opacity-6"> </i>Daftar Survei Guru
+            <i class="header-icon lnr-laptop-phone mr-3 text-muted opacity-6"> </i>Daftar Survei Pengunjung
         </div>
     </div>
     <div class="card-body">
