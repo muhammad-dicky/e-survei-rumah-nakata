@@ -91,9 +91,9 @@
                                     </a>
                                     <ul <?php if($page =='kelas'||$page =='guru'||$page =='pertanyaan'||$page =='aspekGuru'||$page =='kepuasan'):?>class="mm-show"<?php endif;?>>
                                         <li><a <?php if($page =='kelas'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/kelas">Kelas</a></li>
-                                        <li><a <?php if($page =='guru'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/guru">Guru</a></li>
+                                        <!-- <li><a <?php if($page =='guru'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/guru">Guru</a></li> -->
                                         <li><a <?php if($page =='pertanyaan'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/pertanyaan">Survei Pengunjung</a></li>
-                                        <li><a <?php if($page =='aspekGuru'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/aspekGuru">Survei Guru </a></li>
+                                        <!-- <li><a <?php if($page =='aspekGuru'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/aspekGuru">Survei Guru </a></li> -->
                                         <!-- <li><a <?php if($page =='kepuasan'):?>class="mm-active"<?php endif;?> href="<?= base_url(); ?>admin/kepuasan">Survei Kepuasan </a></li> -->
                                     </ul>
                                 </li>
