@@ -40,7 +40,7 @@
                         <div class="col-lg-12">
                             <div class="main-card card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Tambah Data Siswa</h5>
+                                    <h5 class="card-title">Tambah Data Pengunjung</h5>
                                     <form id="signupForm" class="col-md-10 mx-auto" action="<?php echo site_url('admin/tbhDataSiswa');?>" method="post" novalidate="novalidate">
                                     
                                         <div class="form-group">
