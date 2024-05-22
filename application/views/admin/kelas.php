@@ -16,27 +16,28 @@
 
 <div class="main-card card mb-3">
     <div class="card-body border border-warning">
-        <h5 class="card-title">Tambah Data Kelas</h5>
+        <h5 class="card-title">Tambah Data Kategori Pengunjung</h5>
         <form id="signupForm" class="mx-auto" action="<?php echo base_url(). 'admin/tbhKelas'; ?>" method="post" novalidate="novalidate">
             <div>
                 <div class="form-group col-4 d-inline-block align-middle">
-                    <label for="username" >Kelas</label>
+                    <label for="username" >Status</label>
                     <select name="kelas" class="multiselect-dropdown form-control">
-                        <option value="X">X</option>
-                        <option value="XI">XI</option>
-                        <option value="XII">XII</option>
+                        <option value="Aktif">Aktif</option>
+                        <option value="Non Aktif">Non Aktif</option>
+                        
                     </select>
                 </div>
                 <div class="form-group col-4 d-inline-block align-middle">
-                    <label for="username" >Jurusan</label>
+                    <label for="username" >Kategori</label>
                     <select name="jurusan" class="multiselect-dropdown form-control">
-                        <option value="IPA">IPA</option>
-                        <option value="IPS">IPS</option>
-                        <option value="Bahasa">Bahasa</option>
+                        <option value="Masyarakat">Masyarakat</option>
+                        <option value="Pengunjung Khusus">Pengunjung Khusus</option>
+                        <option value="Pengunjung Rutin">Pengunjung Rutin</option>
+                        <option value="Wali Santri">Wali Santri</option>
                     </select>
                 </div>
                 <div class="form-group col-2 d-inline-block align-middle">
-                    <label for="username">Sub Kelas</label>
+                    <label for="username">Sub Id</label>
                     <input name="jumlah" id="exampleText" class="form-control" placeholder="0" type="number">      
                 </div>
                 <div class="form-group col-2 d-block align-middle">
@@ -53,7 +54,7 @@
 <div class="card mb-3 ">
         <div class="card-header-tab card-header">
             <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
-                <i class="header-icon fa fa-reorder mr-3 text-muted opacity-6" style="font-size:16px"> </i>Daftar Kelas
+                <i class="header-icon fa fa-reorder mr-3 text-muted opacity-6" style="font-size:16px"> </i>Daftar Kategori
             </div>
         </div>
         <div class="card-body">
@@ -62,9 +63,9 @@
                 <thead>
                 <tr>
                     <th>No</th>
-                    <th>Kelas</th>
-                    <th>Jurusan</th>
-                    <th>Sub</th>
+                    <th>Status</th>
+                    <th>Kategori</th>
+                    <th>Sub Id</th>
                     <th>Aksi</th>
                 </tr>
                 </thead>
